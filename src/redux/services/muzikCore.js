@@ -17,7 +17,7 @@ export const muzikCoreApi = createApi({
     baseUrl: "https://shazam.p.rapidapi.com/"
     ,
     prepareHeaders: (headers) => {
-      headers.set("X-RapidAPI-Key", "f20b44ada0msh1c23e23d65fe8c5p12efbbjsn5a3dc5fc262e");
+      headers.set("X-RapidAPI-Key", process.env.RAPID_KEY);
 
       headers.set("X-RapidAPI-Host", "shazam.p.rapidapi.com");
 
