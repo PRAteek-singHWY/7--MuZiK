@@ -1,0 +1,12 @@
+1-> new functionalities that we are going to implement and add to our redux store which is *1-> fetching our songs
+ 2-> don't have a credit card so can't go with Shazam as per tutorial and hence going with Spotify's free API but then even spotify didn't worked  bcz of SORS so we moved to Shazam freemium giving 10 osngs ata at time
+ 3->activeSong?.title (here  my trying to access the title property of the activeSong but using a ? m alsos checking if activeSong is null or undefined to avoid any run time errors right)
+ 4-> inside music player index.jsx is nothing else but Musicplayer itself which is being exporte dand use d in the app.jsx
+ 5-> for instance return we create const NavLinks = () =>() --no curly braces needed--
+"" handleClick && handleClick() "" -> this expression simply means that if handleClick is there then call it .
+// "https://cors-proxy4.p.rapidapi.com/", -. this proxy api could be used to surpass CORS restrictions
+now in order tohnadle the songs which did nnot had any audio uri we applie filter over them {hub?action?} if this action wasn't preent inside hub then w ewould not include that song while rendering the songs on the discover screeen and the top tracks screen respectively
+couldn't get the songls related to same artist due to no such end point so insetaed showign recommended below the Lyrics
+sr ->
+is screen reader
+
